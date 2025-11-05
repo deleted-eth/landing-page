@@ -104,13 +104,41 @@ body {
 
 #section-two {
     background-color: #f9faf8;
-    padding: 0px 210px;
+    padding-left: 210px;
+    padding-right: 210px;
+    padding-top: 56px;
+    padding-bottom: 120px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #section-two .main-title {
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
+    text-align: center;
+    margin-bottom: 56px;
+}
+
+#section-two .container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+#section-two .info {
+    max-width: 175px;
+    text-align: center;
+}
+
+#section-two .image {
+    width: 175px;
+    height: 175px;
+    border: 4px solid blue;
+    border-radius: 20px;
+    margin-bottom: 8px;
 }
 
 /* #endregion */
