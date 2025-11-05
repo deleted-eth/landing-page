@@ -21,27 +21,31 @@ body {
 /* #endregion */
 /* #region   Header      */
 
+
+
 #header {
     background-color: #1f2937;
     padding-top: 16px;
-    padding-left: 210px;
-    padding-right: 210px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
+    gap: 480px;
 }
 
 #header #logo a {
     font-size: 24px;
     color: #f9faf8;
     font-weight: 700;
-    margin-right: 32px;
+}
+
+#header #logo {
+    flex: none;
 }
 
 #header ul {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    flex: none;
+    gap: 4px;
 }
 
 #header .nav-links a {
@@ -83,10 +87,11 @@ body {
 }
 
 #section-one .sign-up {
+    font-size: 18px;
     font-weight: 700;
     background-color: #3882F6;
     color: #f9faf8;
-    padding: 8px 32px;
+    padding: 10px 34px;
     border-radius: 7px;
     border: none;
 }
@@ -100,6 +105,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex: none;
 }
 
 /* #endregion */
@@ -139,7 +145,7 @@ body {
 #section-two .image {
     width: 175px;
     height: 175px;
-    border: 4px solid blue;
+    border: 4px solid #3882F6;
     border-radius: 20px;
     margin-bottom: 8px;
 }
@@ -149,7 +155,8 @@ body {
 
 #section-three {
     background-color: #e5e7eb;
-    padding: 130px 250px;
+    padding-top: 130px;
+    padding-bottom: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -159,16 +166,17 @@ body {
     display: flex;
     flex-direction: column;
     max-width: 770px;
+    flex: none;
 }
 
 #section-three #blockquote {
     font-size: 36px;
-    color: #1f2937;
+    color: #495565;
     font-weight: 300;
 }
 
 #section-three #attribution {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 700;
     text-align: right;
     padding-right: 32px;
@@ -179,12 +187,44 @@ body {
 
 #section-four {
     background-color: #f9faf8;
-    padding: 0px 210px;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#section-four .content{
-    background-color: #3882F6
+#section-four .content {
+    background-color: #3882F6;
+    width: 1080px;
+    padding: 56px 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    flex: none;
 }
+
+#section-four .main-title {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 700px;
+}
+
+#section-four .subtext {
+    color: #d6d8e1;
+}
+
+#section-four .sign-up {
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #3882F6;
+    color: #f9faf8;
+    padding: 10px 34px;
+    border-radius: 7px;
+    border: 2px solid #f9faf8;
+}
+   
 
 /* #endregion */
 /* #region   Footer      */
@@ -192,11 +232,11 @@ body {
 #footer {
     background-color: #1f2937;
     color: #f9faf8;
-    height: 72px;
+    padding-top: 34px;
+    padding-bottom: 34px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0px 210px;
 }
 
 /* #endregion */
